@@ -1,0 +1,7 @@
+git init // to initialize github version controlling
+git add // to add the files that you want to push
+git commit -m "initial commit" // to commit to the first changes with comments in ""
+git remote add github <URL> // Now add this to the project repository that you wanted to add like in this case to MySampleProj
+git remote -v // This command can be used used to test if the changes have been saved
+git push github master (or) git push origin master // Used to push changes to github
+git push -f origin master //This command can be used to push files if there are any errors in the file
